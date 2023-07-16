@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-laravel-app
+    container_name: my-laravel-app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    environment:
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=my_laravel_app
+      - DB_USERNAME=root
+      - DB_PASSWORD=
+    depends_on:
+      - db
+    networks:
+      - my-laravel-app-network
+
+  db:
+    image: mysql:8.0
+    container_name: my-laravel-app-db
+    restart: unless-stopped
+    environment:
+      - MYSQL_DATABASE=my_laravel_app
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=
+      - MYSQL_ROOT_PASSWORD=
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - my-laravel-app-network
+
+volumes:
+  dbdata:
+
+networks:
+  my-laravel-app-network:
