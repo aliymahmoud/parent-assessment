@@ -4,7 +4,6 @@ namespace App\Repositories\V1\Abstraction;
 interface JsonFileProviderI
 {
     /**
-     * @property array $providers
      * @property string $filePath
      * @property array $jsonObjectKeys
      * @property array $filters

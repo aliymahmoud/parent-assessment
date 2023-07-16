@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "MockingAmount":300,
+            "MockingCurrecny":"USD",
+            "MockingEmail":"parent1@parent.eu",
+            "MockingStatusCode":8000,
+            "MockingDate": "2018-11-30",
+            "MockingIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        },
+        {
+            "MockingAmount":250,
+            "MockingCurrecny":"USD",
+            "MockingEmail":"parent1@parent.eu",
+            "MockingStatusCode":8000,
+            "MockingDate": "2018-11-30",
+            "MockingIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        },
+        {
+            "MockingAmount":1000,
+            "MockingCurrecny":"USD",
+            "MockingEmail":"parent1@parent.eu",
+            "MockingStatusCode":3000,
+            "MockingDate": "2018-11-30",
+            "MockingIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        },
+        {
+            "MockingAmount":140,
+            "MockingCurrecny":"USD",
+            "MockingEmail":"parent1@parent.eu",
+            "MockingStatusCode":3000,
+            "MockingDate": "2018-11-30",
+            "MockingIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        },
+        {
+            "MockingAmount":120,
+            "MockingCurrecny":"USD",
+            "MockingEmail":"parent1@parent.eu",
+            "MockingStatusCode":3000,
+            "MockingDate": "2018-11-30",
+            "MockingIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        },
+        {
+            "MockingAmount":250,
+            "MockingCurrecny":"USD",
+            "MockingEmail":"parent1@parent.eu",
+            "MockingStatusCode":4000,
+            "MockingDate": "2018-11-30",
+            "MockingIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        }
+    ]
+}
